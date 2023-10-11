@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mad Results</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='results.css')}}"
+    />
+  </head>
+  <body>
+    <h1>Here is Your Mad-Lib!</h1>
+    <h2><b>{{ text }}</b></h2>  
+    <footer>
+      <p>To start again press 'RESTART' or to go home press 'HOME'!!!</p>
+      <form action="/questions">
+        <button id="restart-btn">RESTART!</button>
+      </form>
+      <br />
+      <form action="/">
+        <button id="home-btn">HOME</button>
+      </form>
+    </footer>
+  </body>
+</html>

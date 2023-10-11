@@ -1,0 +1,66 @@
+html {
+  background-color: black;
+}
+
+h1 {
+  padding: 0em, 0em;
+  margin: 0%;
+  background-color: ;
+  color: rgb(21, 148, 148);
+  font-family: fantasy;
+  font-size: 5em;
+  text-align: center;
+}
+
+p {
+  position: relative;
+  top: 2em;
+  margin-left: 40%;
+  font-size: 2em;
+  font-family: fantasy;
+  color: rgb(72, 70, 177);
+}
+
+input {
+  margin-left: 2em;
+  font-size: 1em;
+  font-family: fantasy;
+  border-color: rgb(72, 70, 177);
+  color: rgb(21, 148, 148);
+  background-color: black;
+}
+
+input:hover {
+  background-color: rgba(80, 78, 78, 0.89);
+  cursor: pointer;
+}
+
+input:active {
+  background-color: rgba(80, 78, 78, 0.89);
+  cursor: pointer;
+}
+
+button {
+  border-style: none;
+  position: relative;
+  top: 3em;
+  left: 45%;
+  width: 7em;
+  height: 7em;
+  font-size: 2em;
+  border-radius: 150px;
+  background-color: rgb(72, 70, 177);
+  font-family: fantasy;
+  color: rgb(21, 148, 148);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(72, 70, 177, 0.575);
+  color: rgb(16, 97, 97);
+}
+
+button:active {
+  cursor: pointer;
+  transform: scale(0.95);
+}

@@ -1,0 +1,82 @@
+html {
+  background-color: black;
+}
+
+h1 {
+  padding: 0em, 0em;
+  margin: 0%;
+  background-color: ;
+  color: rgb(21, 148, 148);
+  font-family: fantasy;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  top: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 15px;
+  padding: 1em;
+  border-color: rgb(218, 215, 215);
+  border-style: double;
+  font-size: 2em;
+  font-family:monospace ;
+  color: rgb(72, 70, 177);
+}
+
+footer {
+  position: relative;
+  top: 10em;
+  text-align: center;
+  color: rgb(21, 148, 148);
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+#restart-btn {
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: fantasy;
+  padding: 10px;
+  color: rgb(72, 70, 177);
+  background-color: rgb(21, 148, 148);
+  box-shadow: 7px, 6px, 28px, 1px rgba(241, 237, 237, 0.904);
+  cursor: pointer;
+  width: 5em;
+}
+
+#home-btn {
+  border: none;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: fantasy;
+  padding: 10px;
+  color: rgb(72, 70, 177);
+  background-color: rgb(21, 148, 148);
+  box-shadow: 7px, 6px, 28px, 1px rgba(241, 237, 237, 0.904);
+  cursor: pointer;
+  width: 5em;
+}
+
+#restart-btn:hover {
+  color: rgb(51, 50, 126);
+  background-color: rgb(12, 87, 87);
+}
+
+#home-btn:hover {
+  color: rgb(51, 50, 126);
+  background-color: rgb(12, 87, 87);
+}
+
+#restart-btn:active {
+  transform: scale(0.95);
+}
+
+#home-btn:active {
+  transform: scale(0.95);
+}
